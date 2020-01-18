@@ -1,0 +1,15 @@
+### List installed Kernels
+$ dpkg --list | grep linux-image
+
+### Show active Kernel
+$ uname -r
+
+### List all associated Kernel files
+1. linux-tools-%
+2. linux-image-%
+3. linux-modules-extra-%
+4. linux-modules-%
+5. linux-headers-% (x2)
+6. linux-hwe-tools-%
+
+### Have script allow for the removal of a Kernel in the list
